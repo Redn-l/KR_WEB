@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="C:\Users\13sas\Desktop\Web\pic\12.jpg" type="image/x-icon">
+    <title>Онлайн Автосалон</title>
+    <link rel="stylesheet" href="start.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Navbar -->
+<header>
+    <div class="nav container">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <a href="index.html" class="logo">Авто<span>Пик</span></a>
+        <ul class="navbar">
+            <li><a href="CarWoW.html" class="active">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="parts.html">Запчасти</a></li>
+            <li><a href="blog.html">Блог</a></li>
+        </ul>
+        <i class='bx bx-search' id="search-icon"></i>
+        <div class="search-box container">
+            <input type="search" name="" id="" placeholder="Поиск...">
+        </div>
+    </div>
+</header>
+
+    <!--Главная-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>У нас есть все для вас <br>Ваш Авто<span>Пик</span></h1>
+            <!--Глав Кнопка-->
+            <a href="#" class="btn">Исследуйте сейчас</a>
+        </div>
+    </section>
+    <!--Каталог-->
+    <section class="cars" id="cars">
+        <div class="heading">
+            <span>Все Авто</span>
+            <h2>У нас есть обширный выбор автомобилей</h2>
+            <p>Если у вас есть мысли по для обретения авто, лучше посмотрите наш каталог</p>
+        </div>
+        <!--Cars Container-->
+        <div class="cars-container container">
+        <!--1 lot-->
+            <div class="box">
+                <img src="pic\car1.jpg" alt="">
+                <h2>Porche</h2>
+            </div>
+            <!--2 lot-->
+            <div class="box">
+                <img src="pic\car2.jpg" alt="">
+                <h2>Porche</h2>
+            </div>
+            <!--3 lot-->
+            <div class="box">
+                <img src="pic\car3.jpg" alt="">
+                <h2>Porche</h2>
+            </div>
+            <!--4 lot-->
+            <div class="box">
+                <img src="pic\car4.jpg" alt="">
+                <h2>Porche</h2>
+            </div>
+            <!--5 lot-->
+            <div class="box">
+                <img src="pic\car5.jpg" alt="">
+                <h2>Porche</h2>
+            </div>
+            <!--6 lot-->
+            <div class="box">
+                <img src="pic\car6.jpg" alt="">
+                <h2>Porche</h2>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="pic\about.png" alt="">
+        </div>
+        <div class="about-text">
+            <span>О нас</span>
+            <h2>Отличная цена на рынке<br>Лучшее состояние авто</h2>
+            <p>Бла бла бла</p>
+            <!-- Кнопочка о нас-->
+            <a href="#" class = "btn"> Узнать более</a>
+        </div>
+    </section>
+    <!--Parts Contaniner-->
+    <section class="parts" id="parts">
+        <div class="parts-container container">
+            <!--Box 1-->
+            <div class="box">
+                <img src="pic\part1.png" alt="">
+                <h3>Запчасти для авто</h3>
+                <span>320.000₽</span>
+                <i class='bx bxs-star'>(6 Отзывов)</i>
+                <a href="#" class="btn">Купить сейчас</a>
+                <a href="#" class="details">Узнать</a>
+            </div>
+            <!--Box 2-->
+            <div class="box">
+                <img src="pic\part2.png" alt="">
+                <h3>Запчасти для авто</h3>
+                <span>320.000₽</span>
+                <i class='bx bxs-star'>(6 Отзывов)</i>
+                <a href="#" class="btn">Купить сейчас</a>
+                <a href="#" class="details">Узнать</a>
+            </div>
+            <!--Box 3-->
+            <div class="box">
+                <img src="pic\part3.png" alt="">
+                <h3>Запчасти для авто</h3>
+                <span>320.000₽</span>
+                <i class='bx bxs-star'>(6 Отзывов)</i>
+                <a href="#" class="btn">Купить сейчас</a>
+                <a href="#" class="details">Узнать</a>
+            </div>
+            <!--Box 4-->
+            <div class="box">
+                <img src="pic\part4.png" alt="">
+                <h3>Запчасти для авто</h3>
+                <span>320.000₽</span>
+                <i class='bx bxs-star'>(6 Отзывов)</i>
+                <a href="#" class="btn">Купить сейчас</a>
+                <a href="#" class="details">Узнать</a>
+            </div>
+            <!--Box 5-->
+            <div class="box">
+                <img src="pic\part5.png" alt="">
+                <h3>Запчасти для авто</h3>
+                <span>320.000₽</span>
+                <i class='bx bxs-star'>(6 Отзывов)</i>
+                <a href="#" class="btn">Купить сейчас</a>
+                <a href="#" class="details">Узнать</a>
+            </div>
+            <!--Box 6-->
+            <div class="box">
+                <img src="pic\part6.png" alt="">
+                <h3>Запчасти для авто</h3>
+                <span>320.000₽</span>
+                <i class='bx bxs-star'>(6 Отзывов)</i>
+                <a href="#" class="btn">Купить сейчас</a>
+                <a href="#" class="details">Узнать</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Блог container-->
+    <section class="blog" id="blog">
+        <div class="heading">
+            <span>Наш Блог</span>
+            <h2>У нас есть обширный выбор автомобилей</h2>
+            <p>Если у вас есть мысли по для обретения авто, лучше посмотрите наш каталог</p>
+        </div>
+        <!--Blog -->
+        <div class="blog-container container">
+            <!--Box 1-->
+            <div class="box">
+                <img src="pic\car1.jpg" alt="">
+                <span>Feb 14 2021</span>
+                <h3>Как подобрать автомобиль для вас</h3>
+                <p>оо</p>
+                <a href="#" class="blog-btn">Читать далее<i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+            <!--Box 2-->
+            <div class="box">
+                <img src="pic\car4.jpg" alt="">
+                <span>Feb 14 2021</span>
+                <h3>Как подобрать автомобиль для вас</h3>
+                <p>оо</p>
+                <a href="#" class="blog-btn">Читать далее<i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+            <!--Box 3-->
+            <div class="box">
+                <img src="pic\car3.jpg" alt="">
+                <span>Feb 14 2021</span>
+                <h3>Как подобрать автомобиль для вас</h3>
+                <p>оо</p>
+                <a href="#" class="blog-btn">Читать далее<i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo"><span>Авто</span>Пик</a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Страница</h3>
+                <a href="#">Главная</a>
+                <a href="#">Авто</a>
+                <a href="#">Запчасти</a>
+                <a href="#">Скидки</a>
+            </div>
+            <div class="footer-box">
+                <h3>Файлы</h3>
+                <a href="#">Правила</a>
+                <a href="#">Политика соглашения</a>
+                <a href="#">Файлы Cookie</a>
+            </div>
+            <div class="footer-box">
+                <h3>Контакты</h3>
+                <p>Россия</p>
+                <p>Казахстан</p>
+                <p>Китай</p>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright-->
+    <div class="copyright">
+        <p>&#169; All Right Reserved</p>
+    </div>
+    <!--JS file-->
+    <script src="main.js"></script>
+</body>
+</html>
